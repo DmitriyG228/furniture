@@ -2,11 +2,13 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"save_file_from_url": "00.ipynb",
-         "SaveFeatures": "00.ipynb",
+index = {"save_file_from_url": "full_dataset_style.ipynb",
+         "mk_model_dir": "full_dataset_style.ipynb",
+         "SaveFeatures": "full_dataset_style.ipynb",
          "nas_pictures_path": "00_paths.ipynb",
          "ssd_pictures_path": "00_paths.ipynb",
-         "models_path": "00_paths.ipynb"}
+         "models_path": "00_paths.ipynb",
+         "images_df": "full_dataset_style.ipynb"}
 
 modules = ["learn.py",
            "paths.py"]
